@@ -18,14 +18,15 @@ From this folder with Python 3.12:
 
 ```bash
 python3 -m venv .venv
-.venv/bin/python -m pip install opencv-python-headless==4.11.0.86 numpy==2.2.6
+.venv/bin/python -m pip install opencv-python-headless==4.11.0.86 numpy==2.2.6 reportlab
 ```
 
-Download the official [model weights](https://storage.googleapis.com/download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz),
-[OpenCV graph config](https://github.com/opencv/opencv_extra/blob/4.x/testdata/dnn/ssd_mobilenet_v2_coco_2018_03_29.pbtxt),
+The input images, [OpenCV graph config](https://github.com/opencv/opencv_extra/blob/4.x/testdata/dnn/ssd_mobilenet_v2_coco_2018_03_29.pbtxt),
 and [COCO label map](https://github.com/tensorflow/models/blob/master/research/object_detection/data/mscoco_label_map.pbtxt)
-to the paths in `models/`. Extract only `frozen_inference_graph.pb` from the
-model archive to `models/ssd_mobilenet_v2_coco_2018_03_29/`.
+are included in this repository. Download the official
+[model weights](https://storage.googleapis.com/download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz)
+and extract only `frozen_inference_graph.pb` to
+`models/ssd_mobilenet_v2_coco_2018_03_29/`.
 
 ```bash
 .venv/bin/python your-detection.py
