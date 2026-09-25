@@ -1,0 +1,128 @@
+{
+  "model": "TensorFlow SSD MobileNet v2 COCO 2018-03-29",
+  "runtime": "OpenCV 4.11.0 on macOS CPU",
+  "model_sha256": "2a8d8a89d695842e60d8c6d144181100555563e21acf2fa1e8f561fec5c3c6ad",
+  "config_sha256": "cfbecf9447c384403ef5cf695f4cd0bb4840c1312938280350639a9a8e82d303",
+  "label_map_sha256": "bac43afbd919df8cb70a357227f3dbc77e12283cac8494254ed99ec7d5371316",
+  "threshold": 0.5,
+  "selected_class": "dog",
+  "selection": "Highest-confidence instance of selected class per image",
+  "time_utc": "2026-09-25T20:31:18.176792+00:00",
+  "images": [
+    {
+      "input": "dog_0.jpg",
+      "input_sha256": "91b2204c528a8f572e872b1f65dbb4ec656de8301c23af7f926c2ab572bb0bf5",
+      "width": 500,
+      "height": 375,
+      "annotated": "image_1_detected.jpg",
+      "all_detections": [
+        {
+          "ClassID": 1,
+          "ClassName": "person",
+          "Confidence": 0.9663640260696411,
+          "Left": 2.9827579855918884,
+          "Top": 57.560864835977554,
+          "Right": 218.26475858688354,
+          "Bottom": 350.19662976264954,
+          "Width": 215.28200060129166,
+          "Height": 292.635764926672,
+          "Area": 62999.21292090324,
+          "Center": [
+            110.62375828623772,
+            203.87874729931355
+          ]
+        },
+        {
+          "ClassID": 18,
+          "ClassName": "dog",
+          "Confidence": 0.9663159251213074,
+          "Left": 202.0639181137085,
+          "Top": 53.94473299384117,
+          "Right": 488.167405128479,
+          "Bottom": 371.94594740867615,
+          "Width": 286.1034870147705,
+          "Height": 318.001214414835,
+          "Area": 90981.25631901599,
+          "Center": [
+            345.11566162109375,
+            212.94534020125866
+          ]
+        }
+      ],
+      "selected_detection": {
+        "ClassID": 18,
+        "ClassName": "dog",
+        "Confidence": 0.9663159251213074,
+        "Left": 202.0639181137085,
+        "Top": 53.94473299384117,
+        "Right": 488.167405128479,
+        "Bottom": 371.94594740867615,
+        "Width": 286.1034870147705,
+        "Height": 318.001214414835,
+        "Area": 90981.25631901599,
+        "Center": [
+          345.11566162109375,
+          212.94534020125866
+        ]
+      }
+    },
+    {
+      "input": "dog_2.jpg",
+      "input_sha256": "cb39be03ae25ebeb65211cff14450f9de6ddcc8f610224ef2e1f7dd7a25f659a",
+      "width": 500,
+      "height": 386,
+      "annotated": "image_2_detected.jpg",
+      "all_detections": [
+        {
+          "ClassID": 18,
+          "ClassName": "dog",
+          "Confidence": 0.8068469166755676,
+          "Left": 0.0,
+          "Top": 18.335005521774292,
+          "Right": 500.0,
+          "Bottom": 360.37871420383453,
+          "Width": 500.0,
+          "Height": 342.04370868206024,
+          "Area": 171021.85434103012,
+          "Center": [
+            250.0,
+            189.3568598628044
+          ]
+        },
+        {
+          "ClassID": 63,
+          "ClassName": "couch",
+          "Confidence": 0.6854416131973267,
+          "Left": 3.9144158363342285,
+          "Top": 0.018106818199157715,
+          "Right": 497.5053668022156,
+          "Bottom": 381.3850620985031,
+          "Width": 493.59095096588135,
+          "Height": 381.36695528030396,
+          "Area": 188239.278123768,
+          "Center": [
+            250.7098913192749,
+            190.70158445835114
+          ]
+        }
+      ],
+      "selected_detection": {
+        "ClassID": 18,
+        "ClassName": "dog",
+        "Confidence": 0.8068469166755676,
+        "Left": 0.0,
+        "Top": 18.335005521774292,
+        "Right": 500.0,
+        "Bottom": 360.37871420383453,
+        "Width": 500.0,
+        "Height": 342.04370868206024,
+        "Area": 171021.85434103012,
+        "Center": [
+          250.0,
+          189.3568598628044
+        ]
+      }
+    }
+  ],
+  "complete": true
+}
